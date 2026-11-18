@@ -1,0 +1,14 @@
+[
+  {
+    "record_id": "claim-mail",
+    "source": "customer-mail",
+    "revision": 1,
+    "text": "事故发生在 3 月 4 日，仓库设备 Z91 外壳损坏。"
+  },
+  {
+    "record_id": "repair-report",
+    "source": "repair-report",
+    "revision": 2,
+    "text": "更正设备序列号为 Z19，报告未核实事故日期。"
+  }
+]
