@@ -1,0 +1,34 @@
+{
+  "devices": [
+    {
+      "id": "Z91",
+      "site": "仓库东区"
+    },
+    {
+      "id": "Z19",
+      "site": "仓库东区"
+    }
+  ],
+  "costs": [
+    {
+      "id": "COST-1",
+      "device": "Z91",
+      "cents": 42000
+    },
+    {
+      "id": "COST-2",
+      "device": "Z19",
+      "cents": 16000
+    }
+  ],
+  "decisions": [
+    {
+      "id": "DEC-8",
+      "cost": "COST-1",
+      "evidence": [
+        "photo-1",
+        "repair-1"
+      ]
+    }
+  ]
+}

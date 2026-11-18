@@ -3,12 +3,18 @@
     "record_id": "claim-mail",
     "source": "customer-mail",
     "revision": 1,
-    "text": "事故发生在 3 月 4 日，仓库设备 Z91 外壳损坏。"
+    "text": "东区主机 Z91 外壳损坏，维修人员换下外壳，另有上门费。"
   },
   {
-    "record_id": "repair-report",
+    "record_id": "repair-1",
     "source": "repair-report",
-    "revision": 2,
-    "text": "更正设备序列号为 Z19，报告未核实事故日期。"
+    "revision": 1,
+    "text": "序列号 Z91，更换外壳；同次上门检查了东区另一台 Z19。"
+  },
+  {
+    "record_id": "quote-1",
+    "source": "repair-quote",
+    "revision": 1,
+    "text": "两台设备合并报价 58,000 元，未列上门费分配。"
   }
 ]
