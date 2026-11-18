@@ -1,0 +1,43 @@
+{
+  "documents": [
+    {
+      "id": "photo-1",
+      "kind": "设备受损",
+      "site": "仓库东区",
+      "device": "Z91",
+      "incident": "CL-9"
+    },
+    {
+      "id": "repair-1",
+      "kind": "维修范围",
+      "site": "仓库东区",
+      "device": "Z91",
+      "incident": "CL-9"
+    },
+    {
+      "id": "photo-2",
+      "kind": "设备受损",
+      "site": "仓库东区",
+      "device": "Z19",
+      "incident": "CL-9"
+    }
+  ],
+  "requests": [
+    {
+      "cost": "COST-1",
+      "incident": "CL-9",
+      "documents": [
+        "photo-1",
+        "repair-1"
+      ]
+    },
+    {
+      "cost": "COST-2",
+      "incident": "CL-9",
+      "documents": [
+        "photo-2",
+        "repair-1"
+      ]
+    }
+  ]
+}
