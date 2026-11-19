@@ -13,18 +13,46 @@
     {
       "id": "COST-1",
       "device": "Z91",
-      "cents": 42000
+      "cents": 42000,
+      "items": [
+        {
+          "id": "COST-1-A",
+          "description": "更换外壳",
+          "cents": 34000
+        },
+        {
+          "id": "COST-1-S",
+          "description": "上门服务费",
+          "cents": 8000,
+          "service": true
+        }
+      ]
     },
     {
       "id": "COST-2",
       "device": "Z19",
-      "cents": 16000
+      "cents": 16000,
+      "items": [
+        {
+          "id": "COST-2-A",
+          "description": "主机检修",
+          "cents": 8000
+        },
+        {
+          "id": "COST-2-S",
+          "description": "上门服务费",
+          "cents": 8000,
+          "service": true
+        }
+      ]
     }
   ],
   "decisions": [
     {
       "id": "DEC-8",
       "cost": "COST-1",
+      "incident": "CL-9",
+      "service_visits": 2,
       "evidence": [
         "photo-1",
         "repair-1"

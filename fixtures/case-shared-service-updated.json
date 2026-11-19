@@ -1,0 +1,80 @@
+{
+  "incident": "CL-9",
+  "documents": [
+    {
+      "id": "claim-mail",
+      "kind": "报案",
+      "incident": "CL-9",
+      "site": "仓库东区",
+      "text": "东区主机进水，拆下外壳送修，现场还有同型主机一台，另有上门费。"
+    },
+    {
+      "id": "photo-1",
+      "kind": "照片说明",
+      "device": "Z91",
+      "incident": "CL-9",
+      "site": "仓库东区",
+      "text": "照片 1：仓库东区 Z91 主机，打开外壳后内侧见水迹。"
+    },
+    {
+      "id": "photo-2",
+      "kind": "照片说明",
+      "device": "Z19",
+      "incident": "CL-9",
+      "site": "仓库东区",
+      "text": "照片 2：仓库东区 Z19 主机外观完好，未见进水痕迹。"
+    },
+    {
+      "id": "repair-1",
+      "kind": "维修单",
+      "incident": "CL-9",
+      "site": "仓库东区",
+      "text": "两台同型主机上门服务一次。更换 Z91 外壳，检查 Z19 但未更换配件。"
+    },
+    {
+      "id": "quote-1",
+      "kind": "报价单",
+      "incident": "CL-9",
+      "text": "两台设备合并报价 58,000 元，未列上门费分配。"
+    },
+    {
+      "id": "shell-photo",
+      "kind": "照片说明",
+      "device": "外壳",
+      "incident": "CL-9",
+      "site": "仓库东区",
+      "text": "照片 3：拆下的外壳单独拍摄。"
+    },
+    {
+      "id": "service-1",
+      "kind": "上门服务单",
+      "service_id": "SV-77",
+      "incident": "CL-9",
+      "site": "仓库东区",
+      "text": "服务单 SV-77：2026-11-02 上门一次，处理 Z91 与 Z19，上门费只收一次，两台各分摊 4,000 元。"
+    }
+  ],
+  "requests": [
+    {
+      "cost": "COST-1",
+      "incident": "CL-9",
+      "documents": [
+        "claim-mail",
+        "photo-1",
+        "repair-1",
+        "quote-1",
+        "service-1"
+      ]
+    },
+    {
+      "cost": "COST-2",
+      "incident": "CL-9",
+      "documents": [
+        "photo-2",
+        "repair-1",
+        "quote-1",
+        "service-1"
+      ]
+    }
+  ]
+}
